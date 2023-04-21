@@ -1,0 +1,11 @@
+# Ignore rust's build files
+/target
+# Ignore configuration.
+config
+# Ignore generated files from sim.
+state.*
+# Ignore all temp files
+*.tmp
+# Ignore perf files
+flamegraph.svg
+perf.data*
